@@ -101,3 +101,4 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain.Tests\obj\Debug\net9.0\MyPractice.CleanArchitecture.Domain.Tests.genruntimeconfig.cache
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain.Tests\obj\Debug\net9.0\ref\MyPractice.CleanArchitecture.Domain.Tests.dll
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain.Tests\bin\Debug\net9.0\FluentAssertions.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain.Tests\obj\Debug\net9.0\MyPractice.CleanArchitecture.Domain.Tests.sourcelink.json

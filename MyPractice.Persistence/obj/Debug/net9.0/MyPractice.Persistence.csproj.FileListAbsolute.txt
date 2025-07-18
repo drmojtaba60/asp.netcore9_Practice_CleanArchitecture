@@ -17,3 +17,4 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Persistence\obj\Debug\net9.0\MyPracti.CDE1E39D.Up2Date
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Persistence\bin\Debug\net9.0\MyPractice.Persistence.runtimeconfig.json
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Persistence\obj\Debug\net9.0\MyPractice.Persistence.genruntimeconfig.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Persistence\obj\Debug\net9.0\MyPractice.Persistence.sourcelink.json

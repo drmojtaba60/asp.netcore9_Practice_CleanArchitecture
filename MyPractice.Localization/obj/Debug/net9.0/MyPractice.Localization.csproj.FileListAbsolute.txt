@@ -12,4 +12,4 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\refint\MyPractice.Localization.dll
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.pdb
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\ref\MyPractice.Localization.dll
-D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.Resources.TodoList.resources
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.sourcelink.json

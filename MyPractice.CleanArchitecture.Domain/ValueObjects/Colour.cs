@@ -1,4 +1,5 @@
 ﻿using MyPractice.CleanArchitecture.Domain.Common;
+using MyPractice.CleanArchitecture.Domain.Exceptions;
 
 namespace MyPractice.CleanArchitecture.Domain.ValueObjects;
 
@@ -25,10 +26,13 @@ public sealed class Colour(string code) : ValueObject
     public static Colour From(string code)
     {
         var colour = new Colour(code);
-
-        if (!SupportedColours.Contains(colour))
+        Console.WriteLine(SupportedColours);
+        var colours = SupportedColours;
+        var coloursList = SupportedColourCodes.ToList();
+        if (!coloursList.Contains(colour.ToString()))
         {
-            throw new Exception(code);// UnsupportedColourException(code);
+            throw new UnsupportedColourException(code);
+            //throw new Exception(code);// UnsupportedColourException(code);
         }
 
         return colour;
@@ -60,6 +64,20 @@ public sealed class Colour(string code) : ValueObject
             yield return Blue;
             yield return Purple;
             yield return Grey;
+        }
+    }
+    public static IEnumerable<string> SupportedColourCodes
+    {
+        get
+        {
+            yield return White.ToString();
+            yield return Red.ToString();
+            yield return Orange.ToString();
+            yield return Yellow.ToString();
+            yield return Green.ToString();
+            yield return Blue.ToString();
+            yield return Purple.ToString();
+            yield return Grey.ToString();
         }
     }
 

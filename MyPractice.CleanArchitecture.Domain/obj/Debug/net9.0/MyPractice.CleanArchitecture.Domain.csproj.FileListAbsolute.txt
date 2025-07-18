@@ -9,3 +9,4 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain\obj\Debug\net9.0\refint\MyPractice.CleanArchitecture.Domain.dll
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain\obj\Debug\net9.0\MyPractice.CleanArchitecture.Domain.pdb
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain\obj\Debug\net9.0\ref\MyPractice.CleanArchitecture.Domain.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.CleanArchitecture.Domain\obj\Debug\net9.0\MyPractice.CleanArchitecture.Domain.sourcelink.json

@@ -10,4 +10,29 @@
       <ProjectReference Include="..\MyPractice.CleanArchitecture.Domain\MyPractice.CleanArchitecture.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\TodoListResource.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>TodoListResource.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Order\Order.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Order.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\TodoListResource.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TodoListResource.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\TodoListResource.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TodoListResource.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

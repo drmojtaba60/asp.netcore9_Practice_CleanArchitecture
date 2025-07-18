@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyPractice.Application.Contract.Dtos;
 using MyPractice.Application.Contract.Interfaces.Services;
 
 namespace MyPractice.Interface.RestApi.Controllers;
@@ -14,4 +15,7 @@ public class TodoListController(ITodoListService todoListService) : ControllerBa
         var result = await todoListService.GetAllAsync();
         return Ok(result);
     }
+    [HttpGet("paged")]
+    public async Task<IActionResult> GetByPageAsync([FromQuery]PagedRequestDto requestDto)
+    => Ok(await todoListService.GetAllPaginationAsync(requestDto,CancellationToken.None));
 }

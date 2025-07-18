@@ -21,14 +21,14 @@ namespace MyPractice.Localization.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class TodoList {
+    internal class TodoListResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal TodoList() {
+        internal TodoListResource() {
         }
         
         /// <summary>
@@ -38,7 +38,7 @@ namespace MyPractice.Localization.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MyPractice.Localization.Resources.TodoList", typeof(TodoList).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MyPractice.Localization.Resources.TodoListResource", typeof(TodoListResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -56,6 +56,15 @@ namespace MyPractice.Localization.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to عنوان دسته بندی نمی تواند خالی باشد.
+        /// </summary>
+        internal static string NotNullTitle {
+            get {
+                return ResourceManager.GetString("NotNullTitle", resourceCulture);
             }
         }
     }

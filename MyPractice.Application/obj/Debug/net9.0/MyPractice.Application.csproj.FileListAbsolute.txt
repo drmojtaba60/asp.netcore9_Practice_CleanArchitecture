@@ -15,3 +15,4 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.CleanArchitecture.Domain.pdb
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.csproj.AssemblyReference.cache
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPracti.3462FCDF.Up2Date
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.sourcelink.json

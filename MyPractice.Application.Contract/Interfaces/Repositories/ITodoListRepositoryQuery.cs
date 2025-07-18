@@ -6,7 +6,8 @@ public interface ITodoListRepositoryQuery : IBaseRepositoryQuery<TodoListDto>
 {
     
 
-    public Task<bool> ExistsByTitleAsync(string title);
+    Task<bool> ExistsByTitleAsync(string title);
 
-    public Task<bool> IsDuplicatedByTitleAsync(string title, int? id);
+    Task<bool> IsDuplicatedByTitleAsync(string title, int? id);
+    
 }

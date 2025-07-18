@@ -1,4 +1,5 @@
 ﻿using MyPractice.Application.Contract.Dtos;
+using MyPractice.Application.Contract.Exceptions;
 using MyPractice.Application.Contract.Interfaces;
 using MyPractice.Application.Contract.Interfaces.Services;
 using MyPractice.CleanArchitecture.Domain.Entities;
@@ -22,6 +23,8 @@ public class TodoListService(
 
     public async Task<int> AddAsync(TodoListDto todoListDto)
     {
+        if (string.IsNullOrEmpty(todoListDto?.Title))
+            throw new TodoListTitleNullException();
         if(await todoListRepositoryQuery.ExistsByTitleAsync(todoListDto.Title))
             throw new Exception("Title already exists");
         var todoList = new TodoList(todoListDto?.Title ?? "", todoListDto.Colour, 0, 0);
@@ -45,5 +48,11 @@ public class TodoListService(
             throw new Exception("Id not found");
         var todoList = new TodoList("", null, 0, id);
         await todoListRepository.DeleteAsync(todoList);
+    }
+
+    public async Task<PagedResult<TodoListDto>> GetAllPaginationAsync(PagedRequestDto pagedRequestDto,
+        CancellationToken cancellationToken)
+    {
+        return await todoListRepositoryQuery.GetPagedAsync(pagedRequestDto, cancellationToken);
     }
 }

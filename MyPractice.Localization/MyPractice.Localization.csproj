@@ -19,10 +19,6 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Order.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <EmbeddedResource Update="Resources\TodoList.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>TodoList.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
@@ -40,11 +36,6 @@
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>Order.resx</DependentUpon>
-      </Compile>
-      <Compile Update="Resources\TodoList.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>TodoList.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 
