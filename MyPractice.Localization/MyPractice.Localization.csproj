@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resuources\Customer.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Customer.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resuources\Customer\Customer.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Customer.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Order\Order.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Order.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\TodoList.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>TodoList.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resuources\Customer.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Customer.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resuources\Customer\Customer.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Customer.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Order\Order.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Order.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\TodoList.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TodoList.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

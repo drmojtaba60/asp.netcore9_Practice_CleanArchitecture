@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MyPractice.Localization/1.0.0": {
+        "runtime": {
+          "MyPractice.Localization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyPractice.Localization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

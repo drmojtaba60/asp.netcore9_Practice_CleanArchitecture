@@ -1,0 +1,17 @@
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.Application.deps.json
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.Application.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.Application.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.AssemblyInfoInputs.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.AssemblyInfo.cs
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.csproj.CoreCompileInputs.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\refint\MyPractice.Application.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\ref\MyPractice.Application.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.Application.Contract.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.CleanArchitecture.Domain.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.Application.Contract.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\bin\Debug\net9.0\MyPractice.CleanArchitecture.Domain.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPractice.Application.csproj.AssemblyReference.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application\obj\Debug\net9.0\MyPracti.3462FCDF.Up2Date

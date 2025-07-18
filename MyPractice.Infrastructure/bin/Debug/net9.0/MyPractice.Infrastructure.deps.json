@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MyPractice.Infrastructure/1.0.0": {
+        "runtime": {
+          "MyPractice.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyPractice.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

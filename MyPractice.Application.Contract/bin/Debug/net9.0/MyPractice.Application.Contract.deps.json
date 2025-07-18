@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MyPractice.Application.Contract/1.0.0": {
+        "dependencies": {
+          "MyPractice.CleanArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyPractice.Application.Contract.dll": {}
+        }
+      },
+      "MyPractice.CleanArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MyPractice.CleanArchitecture.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyPractice.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPractice.CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.Resources.Customer.resources
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.csproj.GenerateResource.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.GeneratedMSBuildEditorConfig.editorconfig
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.AssemblyInfoInputs.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.AssemblyInfo.cs
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.csproj.CoreCompileInputs.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.Localization.deps.json
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.Localization.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.Localization.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.Resources.Order.Order.resources
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\refint\MyPractice.Localization.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\ref\MyPractice.Localization.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.Resources.TodoList.resources

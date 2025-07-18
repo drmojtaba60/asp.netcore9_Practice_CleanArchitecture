@@ -1,0 +1,11 @@
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\bin\Debug\net9.0\MyPractice.Config.deps.json
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\bin\Debug\net9.0\MyPractice.Config.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\bin\Debug\net9.0\MyPractice.Config.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\MyPractice.Config.GeneratedMSBuildEditorConfig.editorconfig
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\MyPractice.Config.AssemblyInfoInputs.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\MyPractice.Config.AssemblyInfo.cs
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\MyPractice.Config.csproj.CoreCompileInputs.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\MyPractice.Config.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\refint\MyPractice.Config.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\MyPractice.Config.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Config\obj\Debug\net9.0\ref\MyPractice.Config.dll
