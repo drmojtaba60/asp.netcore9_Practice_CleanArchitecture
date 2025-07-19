@@ -16,8 +16,8 @@
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResources_002FOrder_002FOrder/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResources_002FTodoList/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResources_002FTodoList/@EntryIndexRemoved">True</s:Boolean>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResources_002FTodoListResource/@EntryIndexedValue">False</s:Boolean>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResources_002FTodoListResource/@EntryIndexRemoved">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResources_002FTodoListResource/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResuources_002FCustomer/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResuources_002FCustomer_002FCustomer/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=02_002DInfrastructure_002FMyPractice_002ELocalization_002FResuources_002FCustomer_002FCustomer/@EntryIndexRemoved">True</s:Boolean>
@@ -26,5 +26,6 @@
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=03_002DApplication_002FMyPractice_002EApplication_002EContract_002FResources_002FCustomer/@EntryIndexRemoved">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=03_002DApplication_002FMyPractice_002EApplication_002EContract_002FResources_002FOrder_002FOrder/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=03_002DApplication_002FMyPractice_002EApplication_002EContract_002FResources_002FOrder_002FOrder/@EntryIndexRemoved">True</s:Boolean>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=03_002DApplication_002FMyPractice_002EApplication_002EContract_002FResources_002FTodoListResource/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=03_002DApplication_002FMyPractice_002EApplication_002EContract_002FResources_002FTodoListResource/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=03_002DApplication_002FMyPractice_002EApplication_002EContract_002FResources_002FTodoListResource/@EntryIndexRemoved">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
