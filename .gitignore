@@ -77,7 +77,8 @@ ScaffoldingReadMe.txt
 # publish results
 publish/
 out/
-
+bin/
+obj/
 # .NET secrets
 secrets.json
 

@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.7",
           "MyPractice.Application": "1.0.0",
           "MyPractice.Application.Contract": "1.0.0",
+          "MyPractice.Localization": "1.0.0",
           "MyPractice.Persistence": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.3"
         },
@@ -1095,6 +1096,18 @@
           }
         }
       },
+      "MyPractice.Localization/1.0.0": {
+        "dependencies": {
+          "MyPractice.Application.Contract": "1.0.0",
+          "MyPractice.CleanArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyPractice.Localization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MyPractice.Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.7",
@@ -1723,6 +1736,11 @@
       "sha512": ""
     },
     "MyPractice.CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPractice.Localization/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

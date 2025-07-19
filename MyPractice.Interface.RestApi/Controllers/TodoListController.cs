@@ -18,4 +18,9 @@ public class TodoListController(ITodoListService todoListService) : ControllerBa
     [HttpGet("paged")]
     public async Task<IActionResult> GetByPageAsync([FromQuery]PagedRequestDto requestDto)
     => Ok(await todoListService.GetAllPaginationAsync(requestDto,CancellationToken.None));
+    
+    [HttpPost]
+    public async Task<IActionResult> PostAsync([FromBody]TodoListDto todoListDto)
+        => Ok(await todoListService.AddAsync(todoListDto));
+    
 }

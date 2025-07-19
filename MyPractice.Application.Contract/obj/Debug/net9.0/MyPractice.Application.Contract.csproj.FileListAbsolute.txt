@@ -14,5 +14,3 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application.Contract\obj\Debug\net9.0\MyPractice.Application.Contract.csproj.AssemblyReference.cache
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application.Contract\obj\Debug\net9.0\MyPracti.57E3EAE8.Up2Date
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application.Contract\obj\Debug\net9.0\MyPractice.Application.Contract.sourcelink.json
-D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application.Contract\obj\Debug\net9.0\MyPractice.Application.Contract.Resources.TodoListResource.resources
-D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Application.Contract\obj\Debug\net9.0\MyPractice.Application.Contract.csproj.GenerateResource.cache

@@ -7,14 +7,47 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {
       "MyPractice.Localization/1.0.0": {
+        "dependencies": {
+          "MyPractice.Application.Contract": "1.0.0",
+          "MyPractice.CleanArchitecture.Domain": "1.0.0"
+        },
         "runtime": {
           "MyPractice.Localization.dll": {}
+        }
+      },
+      "MyPractice.Application.Contract/1.0.0": {
+        "dependencies": {
+          "MyPractice.CleanArchitecture.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyPractice.Application.Contract.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MyPractice.CleanArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "MyPractice.CleanArchitecture.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "MyPractice.Localization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPractice.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPractice.CleanArchitecture.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "MyPractice.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MyPractice.CleanArchitecture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyPractice.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyPractice.Application.Contract.dll": {}
+        }
+      },
+      "MyPractice.CleanArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MyPractice.CleanArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyPractice.CleanArchitecture.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyPractice.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../MyPractice.Application.Contract/MyPractice.Application.Contract.csproj",
+      "msbuildProject": "../MyPractice.Application.Contract/MyPractice.Application.Contract.csproj"
+    },
+    "MyPractice.CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MyPractice.CleanArchitecture.Domain/MyPractice.CleanArchitecture.Domain.csproj",
+      "msbuildProject": "../MyPractice.CleanArchitecture.Domain/MyPractice.CleanArchitecture.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "MyPractice.Application.Contract >= 1.0.0",
+      "MyPractice.CleanArchitecture.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\m.shaghi\\.nuget\\packages\\": {},
@@ -38,7 +76,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Application.Contract\\MyPractice.Application.Contract.csproj": {
+              "projectPath": "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Application.Contract\\MyPractice.Application.Contract.csproj"
+            },
+            "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.CleanArchitecture.Domain\\MyPractice.CleanArchitecture.Domain.csproj": {
+              "projectPath": "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.CleanArchitecture.Domain\\MyPractice.CleanArchitecture.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

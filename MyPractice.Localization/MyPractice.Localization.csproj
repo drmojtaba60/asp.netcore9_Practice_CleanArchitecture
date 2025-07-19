@@ -19,7 +19,7 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Order.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <EmbeddedResource Update="Resources\TodoListResource.resx">
+      <EmbeddedResource Update="Resources\TodoList.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>TodoListResource.Designer.cs</LastGenOutput>
       </EmbeddedResource>
@@ -41,11 +41,16 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>Order.resx</DependentUpon>
       </Compile>
-      <Compile Update="Resources\TodoListResource.Designer.cs">
+      <Compile Update="Resources\TodoList.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
-        <DependentUpon>TodoListResource.resx</DependentUpon>
+        <DependentUpon>TodoList.resx</DependentUpon>
       </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyPractice.Application.Contract\MyPractice.Application.Contract.csproj" />
+      <ProjectReference Include="..\MyPractice.CleanArchitecture.Domain\MyPractice.CleanArchitecture.Domain.csproj" />
     </ItemGroup>
 
 </Project>

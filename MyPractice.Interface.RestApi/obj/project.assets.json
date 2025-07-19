@@ -1739,6 +1739,20 @@
           "bin/placeholder/MyPractice.CleanArchitecture.Domain.dll": {}
         }
       },
+      "MyPractice.Localization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MyPractice.Application.Contract": "1.0.0",
+          "MyPractice.CleanArchitecture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyPractice.Localization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyPractice.Localization.dll": {}
+        }
+      },
       "MyPractice.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -5204,6 +5218,11 @@
       "path": "../MyPractice.CleanArchitecture.Domain/MyPractice.CleanArchitecture.Domain.csproj",
       "msbuildProject": "../MyPractice.CleanArchitecture.Domain/MyPractice.CleanArchitecture.Domain.csproj"
     },
+    "MyPractice.Localization/1.0.0": {
+      "type": "project",
+      "path": "../MyPractice.Localization/MyPractice.Localization.csproj",
+      "msbuildProject": "../MyPractice.Localization/MyPractice.Localization.csproj"
+    },
     "MyPractice.Persistence/1.0.0": {
       "type": "project",
       "path": "../MyPractice.Persistence/MyPractice.Persistence.csproj",
@@ -5216,6 +5235,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "MyPractice.Application >= 1.0.0",
       "MyPractice.Application.Contract >= 1.0.0",
+      "MyPractice.Localization >= 1.0.0",
       "MyPractice.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 9.0.3"
     ]
@@ -5257,6 +5277,9 @@
             },
             "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Application\\MyPractice.Application.csproj": {
               "projectPath": "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Application\\MyPractice.Application.csproj"
+            },
+            "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Localization\\MyPractice.Localization.csproj": {
+              "projectPath": "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Localization\\MyPractice.Localization.csproj"
             },
             "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Persistence\\MyPractice.Persistence.csproj": {
               "projectPath": "D:\\developing\\Asp.netCore\\MyPractice\\Architecture\\MyPractice.CleanArchitecture0\\MyPractice.Persistence\\MyPractice.Persistence.csproj"

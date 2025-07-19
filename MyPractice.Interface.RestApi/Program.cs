@@ -1,4 +1,7 @@
 using MyPractice.Application;
+using MyPractice.Application.Contract.Interfaces;
+using MyPractice.Interface.RestApi.Middlewares;
+using MyPractice.Localization.Helper;
 using MyPractice.Persistant;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,9 +18,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices(builder.Configuration);
-
+builder.Services.AddScoped<ILocalizer, Localizer>();
 var app = builder.Build();
-
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 app.UseRouting(); // Enable routing
 
 // Add additional middleware (e.g., authentication, authorization)

@@ -18,6 +18,7 @@
     <ItemGroup>
       <ProjectReference Include="..\MyPractice.Application.Contract\MyPractice.Application.Contract.csproj" />
       <ProjectReference Include="..\MyPractice.Application\MyPractice.Application.csproj" />
+      <ProjectReference Include="..\MyPractice.Localization\MyPractice.Localization.csproj" />
       <ProjectReference Include="..\MyPractice.Persistence\MyPractice.Persistence.csproj" />
     </ItemGroup>
 

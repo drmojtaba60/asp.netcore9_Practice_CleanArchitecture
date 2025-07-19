@@ -1,4 +1,5 @@
 ﻿using MyPractice.Application.Contract.Dtos;
+using MyPractice.Application.Contract.Exceptions;
 using MyPractice.Application.Contract.Interfaces;
 using MyPractice.Application.Contract.Interfaces.Services;
 using MyPractice.CleanArchitecture.Domain.Entities;
@@ -22,9 +23,9 @@ public class TodoListService(
 
     public async Task<int> AddAsync(TodoListDto todoListDto)
     {
-       // if (string.IsNullOrEmpty(todoListDto?.Title))
-         //   throw new TodoListTitleNullException();
-        if(await todoListRepositoryQuery.ExistsByTitleAsync(todoListDto.Title))
+        if (string.IsNullOrEmpty(todoListDto?.Title))
+            throw new TodoListTitleNullException();
+        if (await todoListRepositoryQuery.ExistsByTitleAsync(todoListDto.Title))
             throw new Exception("Title already exists");
         var todoList = new TodoList(todoListDto?.Title ?? "", todoListDto.Colour, 0, 0);
         await todoListRepository.AddAsync(todoList);
@@ -35,7 +36,7 @@ public class TodoListService(
     {
         if (!await todoListRepositoryQuery.ExistsAsync(todoListDto.Id))
             throw new Exception("Id not found");
-        if (await todoListRepositoryQuery.IsDuplicatedByTitleAsync(todoListDto.Title,todoListDto.Id))
+        if (await todoListRepositoryQuery.IsDuplicatedByTitleAsync(todoListDto.Title, todoListDto.Id))
             throw new Exception("Title already exists");
         var todoList = new TodoList(todoListDto?.Title ?? "", todoListDto.Colour, 0, todoListDto.Id);
         await todoListRepository.UpdateAsync(todoList);

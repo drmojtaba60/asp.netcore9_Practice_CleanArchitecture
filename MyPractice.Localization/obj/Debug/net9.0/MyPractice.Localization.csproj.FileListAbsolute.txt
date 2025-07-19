@@ -13,3 +13,10 @@ D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.pdb
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\ref\MyPractice.Localization.dll
 D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.sourcelink.json
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.Application.Contract.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.CleanArchitecture.Domain.dll
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.Application.Contract.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\bin\Debug\net9.0\MyPractice.CleanArchitecture.Domain.pdb
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.csproj.AssemblyReference.cache
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPracti.19444D43.Up2Date
+D:\developing\Asp.netCore\MyPractice\Architecture\MyPractice.CleanArchitecture0\MyPractice.Localization\obj\Debug\net9.0\MyPractice.Localization.Resources.TodoList.resources
