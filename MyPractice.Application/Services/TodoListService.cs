@@ -53,6 +53,7 @@ public class TodoListService(
     public async Task<PagedResult<TodoListDto>> GetAllPaginationAsync(PagedRequestDto pagedRequestDto,
         CancellationToken cancellationToken)
     {
-        return await todoListRepositoryQuery.GetPagedAsync(pagedRequestDto, cancellationToken);
+        var r= await todoListRepositoryQuery.GetPagedAsync(pagedRequestDto, cancellationToken);
+        return r;
     }
 }
